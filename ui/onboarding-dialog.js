@@ -8,6 +8,23 @@ Vue.component('onboarding-dialog', {
             <div class="modal-wrapper">
               <div class="modal-container">
                 <h3>{{ $t('onboarding.title') }}</h3>
+                <div class="modal-download">
+                  <a href="https://play.google.com/store/apps/details?id=se.manyver">
+                    <button class="modal-default-button clickButton get-started-button">
+                      Download Android
+                    </button>
+                  </a>
+                  <a href="https://apps.apple.com/app/manyverse/id1492321617">
+                    <button class="modal-default-button clickButton get-started-button">
+                      Download iPhone
+                    </button>
+                  </a>
+                  <a href="https://github.com/ssbc/patchwork/releases">
+                    <button class="modal-default-button clickButton get-started-button">
+                      Download Desktop
+                    </button>
+                  </a>
+                </div>
                 <p v-html="$t('onboarding.welcomeMessage')"></p>
 
                 <hr />

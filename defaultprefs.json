@@ -1,8 +1,8 @@
 {
-  "appTitle": "SSB Browser Demo",
+  "appTitle": "Rede Coolab",
   "replicationHops": 2,
   "publicFilters": "",
-  "favoriteChannels": [],
+  "favoriteChannels": ["coolab"],
   "hiddenChannels": [],
   "autorefresh": false,
   "offlineMode": false,
@@ -13,9 +13,9 @@
     { "name": "Between Two Worlds Room", "type": "room", "address": "wss:between-two-worlds.dk:9999~shs:7R5/crt8/icLJNpGwP2D7Oqz2WUd7ObCIinFKVR6kNY=", "default": false }
   ],
   "suggestFollows": [
-    { "name": "arj03 Phone", "key": "@VIOn+8a/vaQvv/Ew3+KriCngyUXHxHbjXkj4GafBAY0=.ed25519" },
-    { "name": "arj03 Desktop", "key": "@6CAxOI3f+LUOVrbAl0IemqiS7ATpQvr9Mdw9LC4+Uv0=.ed25519", "default": false },
-    { "name": "andrestaltz", "key": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519", "default": false }
+    { "name": "Luandro", "key": "@2RNGJafZtMHzd76gyvqH6EJiK7kBnXeak5mBWzoO/iU=.ed25519" },
+    { "name": "Rômulo Alves", "key": "@xr/Q/zqaEwmmd4wg8xRU1TrMLQhc9qBqNCioCqmv1vQ=.ed25519" },
+    { "name": "Hiure", "key": "@TMz3wLnXWIEOWUoLiE0tnqT8JerD3TBFiCPyofN28K8=.ed25519" }
   ],
   "theme": "default"
 }

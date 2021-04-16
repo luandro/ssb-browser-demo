@@ -8,6 +8,7 @@ Vue.component('onboarding-dialog', {
             <div class="modal-wrapper">
               <div class="modal-container">
                 <h3>{{ $t('onboarding.title') }}</h3>
+                <p>Para melhor experiência baixe um aplicativo. Ou então continue para criar sua conta online.</p>
                 <div class="modal-download">
                   <a href="https://play.google.com/store/apps/details?id=se.manyver">
                     <button class="modal-default-button clickButton get-started-button">
